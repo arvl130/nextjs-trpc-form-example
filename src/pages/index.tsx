@@ -7,7 +7,7 @@ import {
   supportedShippingModes,
   supportedShippingTypes,
 } from "@/utils/constants"
-import { countryCodeToName, supportedCountryCodes } from "@/utils/humanize"
+import { countryCodeToName, supportedCountryCodes } from "@/utils/country-code"
 import { Inter } from "next/font/google"
 import { useRef } from "react"
 import toast from "react-hot-toast"
